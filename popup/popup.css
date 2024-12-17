@@ -1,0 +1,17 @@
+body {
+    background-color: #1c6f72;
+    color: #d7f4f8;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    width: fit-content;
+}
+
+#blockBtn {
+    margin-top: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    background-color: transparent;
+    border-color: #d7f4f8;
+    color: white;
+}

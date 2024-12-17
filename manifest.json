@@ -1,0 +1,16 @@
+{
+    "name":"AI Blocker",
+    "description": "To prevent the use of AI chatbot websites while studying or coding.",
+    "version":"1.0",
+    "permissions": ["tabs","scripting","storage","activeTab"],
+    "manifest_version":3,
+    "action": {
+        "default_popup":"popup/popup.html",
+        "default_icon":"images/chatbot.png",
+        "default_title":"AI Blocker"
+    },
+    "host_permissions": ["<all_urls>"],
+    "background": {
+        "service_worker": "popup/background.js"
+    }
+}
